@@ -1,0 +1,33 @@
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: blue;
+  font-size: 80px;
+}
+
+td {
+  height: 100px;
+  min-width: 100px;
+  font-size: 100;
+  background-color: grey;
+}
+
+table {
+  font-size: 80px;
+  text-align: center;
+}
+
+table tr .win {
+  background-color: green;
+}
+
+table tr td:hover {
+  background-color: lightblue;
+}
+
+button {
+  margin-top: 20px;
+}
