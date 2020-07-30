@@ -24,10 +24,6 @@ table tr .win {
   background-color: green;
 }
 
-table tr td:hover {
-  background-color: lightblue;
-}
-
 button {
   margin-top: 20px;
 }
