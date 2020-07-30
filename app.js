@@ -170,8 +170,8 @@ board.addEventListener('click', () => {
       box5.innerHTML === "X" &&
       box7.innerHTML === "X") {
         box3.style.backgroundColor = "green";
-        box6.style.backgroundColor = "green";
-        box9.style.backgroundColor = "green";
+        box5.style.backgroundColor = "green";
+        box7.style.backgroundColor = "green";
         player.innerHTML = "PLAYER 1 WINS!";
       }
 // diagonal O win
