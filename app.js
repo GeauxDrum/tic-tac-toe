@@ -161,9 +161,9 @@ board.addEventListener('click', () => {
   if (box1.innerHTML === "X" &&
       box5.innerHTML === "X" &&
       box9.innerHTML === "X") {
-        box2.style.backgroundColor = "green";
+        box1.style.backgroundColor = "green";
         box5.style.backgroundColor = "green";
-        box8.style.backgroundColor = "green";
+        box9.style.backgroundColor = "green";
         player.innerHTML = "PLAYER 1 WINS!";
       }
   if (box3.innerHTML === "X" &&
@@ -178,17 +178,17 @@ board.addEventListener('click', () => {
   if (box1.innerHTML === "O" &&
       box5.innerHTML === "O" &&
       box9.innerHTML === "O") {
-        box2.style.backgroundColor = "green";
+        box1.style.backgroundColor = "green";
         box5.style.backgroundColor = "green";
-        box8.style.backgroundColor = "green";
+        box9.style.backgroundColor = "green";
         player.innerHTML = "PLAYER 2 WINS!";
       }
   if (box3.innerHTML === "O" &&
       box5.innerHTML === "O" &&
       box7.innerHTML === "O") {
         box3.style.backgroundColor = "green";
-        box6.style.backgroundColor = "green";
-        box9.style.backgroundColor = "green";
+        box5.style.backgroundColor = "green";
+        box7.style.backgroundColor = "green";
         player.innerHTML = "PLAYER 2 WINS!";
       }
   if (box1.innerHTML &&
